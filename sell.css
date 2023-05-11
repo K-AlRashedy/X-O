@@ -43,3 +43,11 @@ color: red;
 .score {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.sell span {
+  position: absolute;
+}
+
+.sell.o span ,
+.sell.x span {
+  color: #0005;
+}
